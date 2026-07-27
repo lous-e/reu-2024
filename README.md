@@ -28,6 +28,7 @@ Evaluates a fitted SuperLearner model on a held-out season (2021) as a test
 set: ROC curve, GAM diagnostics, and residual simulation.
 
 ## Typical run order
+```
 0_get_pbp_data.R    (per season)
 1_clean_data.R       (per season)
 2_merge_datasets.R
